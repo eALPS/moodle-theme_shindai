@@ -76,7 +76,7 @@ body {margin:auto 0px;width:auto;}
 
 /** Report layout **/
 .pagelayout-report #page {width:auto;position:relative;}
-.pagelayout-report #page-header {float:none;}
+/*.pagelayout-report #page-header {float:none;}*/
 .pagelayout-report #page-content {float:none;overflow:visible;width:auto;}
 .pagelayout-report #report-main-content {float:left;width:100%;}
 .pagelayout-report #report-main-content .region-content {margin-left:200px;}
