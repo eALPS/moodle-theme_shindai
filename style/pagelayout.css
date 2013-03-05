@@ -29,7 +29,7 @@
 
 body {margin:auto 0px;width:auto;}
 #page {width:100%;position:relative;}
-#page-header {float:left;width:100%;margin:0px; padding: 10px 0 0; color:#eee;background-color: #095;} /* Shindai Option */
+#page-header {float:none; width:100%; margin:0px; padding:10px 0 0; color:#eee; background-color:#095;} /* Shindai Option */
 #page-header a:link, #page-header a:visited {color: #ffff99;} /* Shindai Option */
 #page-header a:hover, #page-header a:active {color: #eee;} /* Shindai Option */
 .headermenu {margin: 10px 0 0; font-size: 1em;} /* Shindai Option */
