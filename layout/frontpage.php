@@ -51,7 +51,7 @@ echo $OUTPUT->doctype() ?>
             	echo $OUTPUT->login_info();
             ?>
         <div>
-            <button onclick="window.open('http://moodle.ealps.shinshu-u.ac.jp/support/'); return false; ">eALPS ヘルプ</button>
+            <input type="button" onclick="window.open('http://moodle.ealps.shinshu-u.ac.jp/support/'); return false; " value="eALPS ヘルプ" />
         </div>
             <?php
             echo $OUTPUT->lang_menu();
