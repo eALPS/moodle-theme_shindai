@@ -46,8 +46,12 @@ echo $OUTPUT->doctype() ?>
             <img height="50" style="vertical-align:middle;margin-right:10px;" src="<?php echo $CFG->wwwroot ?>/theme/shindai/pix/moodle_on_ealps_logo.png" alt="home logo">
             <?php echo $PAGE->heading ?>
         </h1>
-        <div class="headermenu"><?php
-            echo $OUTPUT->login_info();
+        <div class="headermenu">
+        	<?php
+            	echo $OUTPUT->login_info();
+            ?>
+            <a href="http://moodle.ealps.shinshu-u.ac.jp/support/" style="border:1px solid #aaa;clear:both;background-color:#6E6;" onclick="window.open('http://moodle.ealps.shinshu-u.ac.jp/support/'); return false;">eALPS ヘルプ</a>;
+            <?php
             echo $OUTPUT->lang_menu();
             echo $PAGE->headingmenu;
         ?></div>
