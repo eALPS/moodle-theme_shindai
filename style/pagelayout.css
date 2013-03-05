@@ -45,7 +45,7 @@ body {margin:auto 0px;width:auto;}
 #page-footer {clear:both;float:left;width:100%;}
 
 /** nav-bar **/
-#nav-bar{margin: 10px 0 0;} 
+#nav-bar{float:left; width:100%; margin: 10px 0 0;} 
 
 /** Only side pre **/
 .side-pre-only #page-content #region-post-box {margin-left:-200px;}
