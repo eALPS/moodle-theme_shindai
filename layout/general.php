@@ -53,7 +53,11 @@ echo $OUTPUT->doctype() ?>
         <div class="headermenu"><?php
             if ($haslogininfo) {
                 echo $OUTPUT->login_info();
-            }
+            }?>
+            <div>
+            	<input type="button" onclick="window.open('http://moodle.ealps.shinshu-u.ac.jp/support/'); return false; " value="eALPS ヘルプ" />
+            </div>
+        	<?
             if (!empty($PAGE->layout_options['langmenu'])) {
                 echo $OUTPUT->lang_menu();
             }
