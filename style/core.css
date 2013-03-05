@@ -28,7 +28,7 @@ h6.main {text-align:center;font-weight:bold;}
 th.header,
 td.header,
 div.header,
-.navbar {border-color:#DDDDDD;}
+.navbar {margin: 10px 0 0; border-color:#DDDDDD;}
 
 /**
  * Boxes
