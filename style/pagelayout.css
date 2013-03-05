@@ -30,8 +30,8 @@
 body {margin:auto 0px;width:auto;}
 #page {width:100%;position:relative;}
 #page-header {float:left; width:100%; margin:0px; padding:0; color:#eee; background-color:#095;} /* Shindai Option */
-#page-header h1.headermain {font-size: 2em; margin: 5px 0;} /* Shindai Option */
-#page-header h1.headermain span {font-size: 2em; padding: 4px 0;} /* Shindai Option */
+#page-header h1.headermain {font-size: 2em; padding: 4px 0 0;} /* Shindai Option */
+#page-header h1.headermain span {vertical-align: middle;} /* Shindai Option */
 #page-header a:link, #page-header a:visited {color: #ffff99;} /* Shindai Option */
 #page-header a:hover, #page-header a:active {color: #eee;} /* Shindai Option */
 .headermenu {margin: 5px 10px; font-size: 1em;} /* Shindai Option */
