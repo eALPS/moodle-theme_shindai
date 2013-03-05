@@ -1,6 +1,6 @@
 html, body#tinymce {background-color:#FAFAFA;}
-body {font-family:Arial, Verdana, Helvetica, sans-serif;padding: 4px;}
-body.lang-vi {font-family:Arial, Verdana, Helvetica, sans-serif !important;}
+body {font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;}
+body.lang-vi {font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;}
 
 /**
  * Links
