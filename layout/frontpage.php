@@ -43,7 +43,7 @@ echo $OUTPUT->doctype() ?>
 
     <div id="page-header" class="clearfix">
         <h1 class="headermain">
-            <img width="205" height="64" style="vertical-align:middle;margin-right:10px;" src="<?php echo $CFG->wwwroot ?>/theme/shindai/pix/home-logo.png" alt="home logo">
+            <img height="50" style="vertical-align:middle;margin-right:10px;" src="<?php echo $CFG->wwwroot ?>/theme/shindai/pix/moodle_on_ealps_logo.png" alt="home logo">
             <?php echo $PAGE->heading ?>
         </h1>
         <div class="headermenu"><?php
