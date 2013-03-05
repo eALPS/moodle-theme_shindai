@@ -50,7 +50,9 @@ echo $OUTPUT->doctype() ?>
         	<?php
             	echo $OUTPUT->login_info();
             ?>
-            <a href="http://moodle.ealps.shinshu-u.ac.jp/support/" style="border:1px solid #aaa;clear:both;background-color:#6E6;" onclick="window.open('http://moodle.ealps.shinshu-u.ac.jp/support/'); return false;">eALPS ヘルプ</a>;
+        <div>
+            <button onclick="window.open('http://moodle.ealps.shinshu-u.ac.jp/support/'); return false; ">eALPS ヘルプ</button>
+        </div>
             <?php
             echo $OUTPUT->lang_menu();
             echo $PAGE->headingmenu;
